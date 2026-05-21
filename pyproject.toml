@@ -1,0 +1,12 @@
+[project]
+name = "sec-filing-analyst"
+version = "0.1.0"
+description = "Agentic SEC filing analyst — retrieves 10-K/10-Q filings via EDGAR, extracts structured data with a local model, and synthesizes analyst context via web search."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.103.1",
+    "ollama>=0.6.2",
+    "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
+]
