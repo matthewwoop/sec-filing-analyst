@@ -23,7 +23,8 @@ class OllamaProvider(ModelProvider):
             messages=[
                 {"role": "system", "content": system},
                 {"role": "user", "content": user_message}
-            ]
+            ],
+            format="json"
         )
         return response.message.content
     

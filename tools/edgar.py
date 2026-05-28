@@ -6,7 +6,7 @@ SEC_TICKERS_URL = "https://www.sec.gov/files/company_tickers.json"
 SUBMISSIONS_BASE_URL = "https://data.sec.gov/submissions"
 ARCHIVES_BASE_URL = "https://www.sec.gov/Archives/edgar/data"
 
-MAX_FILING_CHARS = 80_000
+MAX_FILING_CHARS = 20_000
 
 SECTION_PATTERNS = [
     r"item\s+1a[\.\s]+risk factors",
